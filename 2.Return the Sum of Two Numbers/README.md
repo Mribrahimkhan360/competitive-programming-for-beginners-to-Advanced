@@ -1,19 +1,21 @@
-# Edabit Challenge Introduction
+# Return the Sum of Two Numbers
 
-## 📘 How Edabit Works
+## 📘 Return the Sum of Two Numbers
 
-This challenge introduces how coding challenges work on Edabit.
+Return the Sum of Two Numbers
+Create a function that takes two numbers as arguments and returns their sum.
 
-In the **Code** tab, you will see a starter function like this:
+Examples
+addition(3, 2) ➞ 5
 
-```javascript
-function hello() {
+addition(-3, -6) ➞ -9
 
-}
-
+addition(7, 3) ➞ 10
 ## ✅ Final Solution
 
 ```Answer
-function hello() {
-  return "hello edabit.com"
-}
+addition(3, 2) ➞ 5
+
+addition(-3, -6) ➞ -9
+
+addition(7, 3) ➞ 10
