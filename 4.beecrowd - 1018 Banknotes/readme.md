@@ -44,3 +44,20 @@ Input Sample	Output Sample
 0 nota(s) de R$ 5,00
 1 nota(s) de R$ 2,00
 1 nota(s) de R$ 1,00
+
+
+
+const fs = require('fs');
+
+const input = fs.readFileSync(0, 'utf-8').trim().split(/\s+/);
+let x1 = Number(input[0]); // Use let here
+
+const notes = [100, 50, 20, 10, 5, 2, 1];
+
+console.log(x1); // Print the original number
+
+for (let i = 0; i < notes.length; i++) {
+    let cnt = Math.floor(x1 / notes[i]);
+    console.log(`${cnt} nota(s) de R$ ${notes[i]},00`);
+    x1 %= notes[i]; // Update the remaining amount
+}
