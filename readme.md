@@ -5,3 +5,5 @@
 ## 3.beecrowd - 1017 Fuel Spent
 
 ## 4.beecrowd - 1018 Banknotes
+
+## 5.beecrowd - 1019 Time Conversion
